@@ -70,6 +70,12 @@
     _selecView.alpha=0;
     [self.view addSubview:_selecView];
     
+    
+    UIView *view=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 400, 300)];
+    view.backgroundColor=[UIColor redColor]
+    ;
+
+    [self.view addSubview:view];
    
 }
 
